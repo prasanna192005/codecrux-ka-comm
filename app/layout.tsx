@@ -18,6 +18,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <nav className="shadow-md p-4 flex justify-between items-center bg-black text-white">
+  <div className="text-xl font-bold">CodeCrux</div>
+  <ul className="hidden md:flex space-x-6">
+    <li><a href="https://codecrux-hero.vercel.app/" className="hover:text-gray-600">Home</a></li>
+    <li><a href="https://coderuxx-vs8d.vercel.app/" className="hover:text-gray-600">Play</a></li>
+    <li><a href="http://localhost:3000/AlgorithmVisualizer/AlgorithmVisualizer" className="hover:text-gray-600">Visualize</a></li>
+    <li><a href="https://codecrux-profile.vercel.app/" className="hover:text-gray-600">Profile</a></li>
+  </ul>
+  <button className="md:hidden text-gray-600">☰</button>
+</nav>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
