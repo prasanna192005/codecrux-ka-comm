@@ -43,7 +43,7 @@ const dummyArticle: Article = {
     "Dynamic Programming (DP) is a powerful technique for solving optimization problems. In this article, we'll explore how to use DP to optimize the calculation of Fibonacci numbers.\n\nThe Fibonacci sequence is defined as follows:\n\nF(0) = 0\nF(1) = 1\nF(n) = F(n-1) + F(n-2) for n > 1\n\nA naive recursive implementation would have exponential time complexity. However, by using DP, we can reduce it to linear time complexity.\n\nHere's a Python implementation using DP:\n\n```python\ndef fib(n):\n    if n <= 1:\n        return n\n    dp = [0] * (n + 1)\n    dp[1] = 1\n    for i in range(2, n + 1):\n        dp[i] = dp[i-1] + dp[i-2]\n    return dp[n]\n```\n\nThis implementation has a time complexity of O(n) and space complexity of O(n). We can further optimize the space complexity to O(1) by only keeping track of the last two numbers:\n\n```python\ndef fib_optimized(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n```\n\nBy using DP, we've significantly improved the efficiency of calculating Fibonacci numbers, making it possible to compute large Fibonacci numbers quickly.",
   author: {
     name: "Alice",
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "image.png",
   },
   upvotes: 15,
   comments: 7,
@@ -56,7 +56,7 @@ const dummyComments: Comment[] = [
     id: 1,
     author: {
       name: "Bob",
-      avatar: "/placeholder.svg?height=32&width=32",
+      avatar: "/image.png",
     },
     content: "Great explanation! I've been struggling with DP and this really helped clarify things.",
     createdAt: "1h ago",

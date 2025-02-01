@@ -31,7 +31,7 @@ const dummyDiscussions: Discussion[] = [
       "I've been working on improving the efficiency of calculating Fibonacci numbers. Here's my approach using DP:",
     author: {
       name: "Alice",
-      avatar: "/placeholder.svg?height=40&width=40",
+      avatar: "/image.png",
     },
     upvotes: 15,
     comments: 7,
@@ -44,7 +44,7 @@ const dummyDiscussions: Discussion[] = [
     content: "I'm struggling with the rotation logic in my AVL tree implementation. Any tips?",
     author: {
       name: "Bob",
-      avatar: "/placeholder.svg?height=40&width=40",
+      avatar: "/image.png",
     },
     upvotes: 8,
     comments: 3,
@@ -57,7 +57,7 @@ const dummyDiscussions: Discussion[] = [
     content: "Let's discuss various graph traversal algorithms and their time complexities.",
     author: {
       name: "Charlie",
-      avatar: "/placeholder.svg?height=40&width=40",
+      avatar: "/image.png",
     },
     upvotes: 12,
     comments: 5,
@@ -70,7 +70,7 @@ const dummyDiscussions: Discussion[] = [
     content: "Quicksort is a powerful sorting algorithm. Let's explore its implementation and optimizations.",
     author: {
       name: "David",
-      avatar: "/placeholder.svg?height=40&width=40",
+      avatar: "/imag2.jpeg",
     },
     upvotes: 10,
     comments: 4,
@@ -83,7 +83,7 @@ const dummyDiscussions: Discussion[] = [
     content: "Analyzing time complexity in recursive algorithms can be tricky. Here's a guide to help you master it.",
     author: {
       name: "Eve",
-      avatar: "/placeholder.svg?height=40&width=40",
+      avatar: "/imag2.jpeg",
     },
     upvotes: 18,
     comments: 9,
